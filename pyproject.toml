@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ibkr-trader-strategy-config"
+version = "0.1.0"
+description = "Strategy Configuration Service for the IBKR Trader App"
+authors = ["Samuel Morris <dodobird181@gmail.com>"]
+license = "GNU GENERAL PUBLIC LICENSE v3"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
